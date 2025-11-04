@@ -39,11 +39,12 @@ path:
   pretrain_network_g: ./experiments/pretrained/net_g_latest.pth
   strict_load_g: true
   resume_state: ~
+  custom_output: ../output_images
 
 # inference output
 val:
   save_img: true
-  suffix: ~
+  suffix: XRestormer
   pbar: true
   metrics: {}                   # <- disables PSNR/SSIM metrics
 
